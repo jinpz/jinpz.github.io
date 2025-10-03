@@ -1,0 +1,234 @@
+- title: "Q♯: Provably Optimal Distributional RL for LLM Post-Training"
+  authors: "Jin Peng Zhou*, Kaiwen Wang*, Jonathan Chang*, Zhaolin Gao, Nathan Kallus, Kilian Weinberger, Kianté Brantley, Wen Sun"
+  venue: "NeurIPS"
+  year: 2025
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  # award: "Spotlight" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/pdf/2502.20548"
+    code: "https://github.com/jinpz/q_sharp"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "q_sharp.png" # Optional: place in /images/ folder
+  description: "Provably optimal distributional RL method for KL-regularized RL, which we apply to post-train language models." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "Value-Guided Search for Efficient Chain-of-Thought Reasoning"
+  authors: "Kaiwen Wang*, Jin Peng Zhou*, Jonathan Chang*, Zhaolin Gao, Nathan Kallus, Kianté Brantley, Wen Sun"
+  venue: "NeurIPS"
+  year: 2025
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  # award: "Spotlight" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/pdf/2505.17373"
+    code: "https://github.com/kaiwenw/ValueGuidedSearch"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "vgs.png" # Optional: place in /images/ folder
+  description: "Block-wise value-guided search for scaling test-time compute of reasoning models (DeepSeek-R1 series)." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "Graders Should Cheat: Privileged Information Enables Expert-Level Automated Evaluations"
+  authors: "Jin Peng Zhou, Sébastien M. R. Arnold, Nan Ding, Kilian Weinberger, Nan Hua, Fei Sha"
+  venue: "EMNLP Main Conference"
+  year: 2025
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  # award: "Spotlight" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/pdf/2502.10961"
+    # code: "https://github.com/jinpz/q_sharp"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "grader.png" # Optional: place in /images/ folder
+  description: "Privileged information significantly improves LLM judge performance on diverse tasks." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "On Speeding Up Language Model Evaluation"
+  authors: "Jin Peng Zhou*, Christian Belardi*, Ruihan Wu*, Travis Zhang, Carla Gomes, Wen Sun, Kilian Weinberger"
+  venue: "ICLR"
+  year: 2025
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  # award: "Spotlight" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/pdf/2407.06172"
+    code: "https://github.com/kilian-group/banditeval"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "eval_bandit.png" # Optional: place in /images/ folder
+  description: "Adaptive evaluation methods such as multi-arm bandits cut LLM evaluation costs for identifying the best model." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "Gemma 2: Improving Open Language Models at a Practical Size"
+  authors: "Gemma Team"
+  venue: "Arxiv"
+  year: 2025
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  # award: "Spotlight" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/pdf/2408.00118"
+    checkpoint: "https://huggingface.co/collections/google/gemma-2-release-667d6600fd5220e7b967f315"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "gemma_2.webp" # Optional: place in /images/ folder
+  description: "Strong open-weight model released by Google. Contributed to the evaluation of model checkpoints." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "Code Repair with LLMs Gives an Exploration-Exploitation Tradeoff"
+  authors: "Hao Tang, Keya Hu, Jin Peng Zhou, Si Cheng Zhong, Wei-Long Zheng, Xujie Si, Kevin Ellis"
+  venue: "NeurIPS"
+  year: 2024
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  # award: "Spotlight" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://proceedings.neurips.cc/paper_files/paper/2024/file/d5c56ec4f69c9a473089b16000d3f8cd-Paper-Conference.pdf"
+    # code: "https://github.com/jinpz/q_sharp"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "repair.png" # Optional: place in /images/ folder
+  description: "Balancing exploration and exploitation in iterative code repair with a bandit-based refinement strategy." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "Don't Trust: Verify - Grounding LLM Quantitative Reasoning with Autoformalization"
+  authors: "Jin Peng Zhou, Charles Staats, Wenda Li, Christian Szegedy, Kilian Weinberger, Yuhuai Wu"
+  venue: "ICLR"
+  year: 2024
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  # award: "Spotlight" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/pdf/2403.18120"
+    code: "https://github.com/jinpz/dtv"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "dtv.png" # Optional: place in /images/ folder
+  description: "Verifying LLM generated solutions with formal theorem prover enhances majority voting accuracy." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "REFACTOR: Learning to Extract Theorems from Proofs"
+  authors: "Jin Peng Zhou*, Yuhuai Wu*, Qiyang Li, Roger Grosse"
+  venue: "ICLR"
+  year: 2024
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  # award: "Spotlight" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/pdf/2402.17032"
+    code: "https://github.com/jinpz/refactor"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "refactor.png" # Optional: place in /images/ folder
+  description: "Extracting and reusing theorems from Metamath proofs augments the library and improves prover accuracy." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "Magnushammer: A Transformer-based Approach to Premise Selection"
+  authors: "Maciej Mikuła*, Szymon Antoniak*, Szymon Tworkowski*, Albert Qiaochu Jiang, Jin Peng Zhou, Christian Szegedy, Łukasz Kuciński, Piotr Miłoś, Yuhuai Wu"
+  venue: "ICLR"
+  year: 2024
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  # award: "Spotlight" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/pdf/2303.04488"
+    code: "https://github.com/Simontwice/MagnusData"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "magnus.png" # Optional: place in /images/ folder
+  description: "Learning neural premise selection outperforms off-the-shelf automated theorem prover." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "Unsupervised Out-of-Distribution Detection with Diffusion Inpainting"
+  authors: "Zhenzhen Liu*, Jin Peng Zhou*, Yufan Wang, Kilian Q. Weinberger"
+  venue: "ICML"
+  year: 2023
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  # award: "Spotlight" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/pdf/2302.10326"
+    code: "https://github.com/zhenzhel/lift_map_detect"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "lmd.jpeg" # Optional: place in /images/ folder
+  description: "Detecting OOD samples by training a diffusion model on in-distribution data and using inpainting to expose anomalies." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs"
+  authors: "Albert Q. Jiang*, Sean Welleck*, Jin Peng Zhou*, Wenda Li, Jiacheng Liu, Mateja Jamnik, Timothée Lacroix, Yuhuai Wu, Guillaume Lample"
+  venue: "ICLR"
+  year: 2023
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  award: "Oral" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/pdf/2210.12283"
+    code: "https://github.com/albertqjiang/draft_sketch_prove"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "dsp.jpeg" # Optional: place in /images/ folder
+  description: "DSP maps natural language proofs into formal sketches that guide automated theorem provers, improving success rates on competition-level problems." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "Does Label Differential Privacy Prevent Label Inference Attacks?"
+  authors: "Ruihan Wu*, Jin Peng Zhou*, Kilian Q Weinberger, Chuan Guo"
+  venue: "AISTATS"
+  year: 2023
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  # award: "Oral" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://arxiv.org/pdf/2202.12968"
+    code: "https://github.com/jinpz/label_differential_privacy"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "ldp.png" # Optional: place in /images/ folder
+  description: "Label differential privacy limits an adversary’s advantage in label inference attacks, rather than guaranteeing low absolute accuracy." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
+- title: "TAFA: Two-headed Attention Fused Autoencoder for Context-Aware Recommendations"
+  authors: "Jin Peng Zhou*, Zhaoyue Cheng*, Felipe Perez, Maksims Volkovs"
+  venue: "RecSys"
+  year: 2020
+  # status: "Published" # Published, Under Review, Preprint, etc.
+  # award: "Oral" # Optional: Spotlight, Best Paper, Outstanding Paper, etc.
+  links:
+    # pdf: "http://academicpages.github.io/files/paper3.pdf"
+    pdf: "https://dl.acm.org/doi/pdf/10.1145/3383313.3412268"
+    code: "https://github.com/layer6ai-labs/TAFA"
+    # website: "https://project-website.com"
+    # slides: "../files/slides.pdf"
+    # poster: "../files/poster.pdf"
+    # video: "https://youtube.com/watch?v=xxxxx"
+  image: "tafa.png" # Optional: place in /images/ folder
+  description: "TAFA fuses reviews and implicit feedback to reduce popularity bias and improve personalized, interpretable recommendations." # Optional
+  featured: false # Set to true for featured/highlighted papers
+
